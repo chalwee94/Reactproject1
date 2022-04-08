@@ -6,6 +6,10 @@
   "devDependencies": {
     "concurrently": "^7.1.0"
   },
+  "engines":{
+
+  },
+
   "scripts": {
     "start": "cd server && npm start",
     "dev": "concurrently npm:dev:client npm:dev:server",
@@ -16,6 +20,10 @@
     "build:server": "cd server && npm run build",
     "test": "cd client && npm run verify"
   },
+  "engines": {
+    "node": "v16.13.1",
+    "npm": "8.3.0"},
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chalwee94/Reactproject1.git"
