@@ -1,6 +1,6 @@
 import * as React from "react";
 import {useState} from "react";
-import {BrowserRouter, Link, Route, Routes, useNavigate} from "react-router-dom";
+
 
 
 function FrontPage() {
